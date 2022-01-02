@@ -105,7 +105,7 @@ As example, file InovoiceSample2.csv is share. It has all samples for training f
 
 However, a first analysis revels  that data is unbalanced.
 
-
+![Alt text](/pic/Unbalanced.png?raw=true "Unbalanced data")
 
 
 
@@ -116,7 +116,7 @@ However, a first analysis revels  that data is unbalanced.
 
 Thus, the next step was to use SMOTE creating overlapping samples and solve the problem mentioned above.
 
-
+![Alt text](/pic/Unbalanced.png?raw=true "Unbalanced data")
 
 
 
@@ -124,6 +124,7 @@ Thus, the next step was to use SMOTE creating overlapping samples and solve the 
 
 Finally, data was balanced as follow. This can be check in the notebook.
 
+![Alt text](/pic/Balanced.png?raw=true "Balanced data")
 
 
 
@@ -139,6 +140,7 @@ So, to improve accuracy two additional inputs were added  to multi-network layer
 	b) Add number of pages. This it to identify the invoice’s structure
 
 Finally, multi-layer configuration will be:
+![Alt text](/pic/model.png?raw=true "final Mul-layer model")
 
 
 
@@ -152,8 +154,9 @@ Finally, multi-layer configuration will be:
 
 
 
-Using Keras to create the Multi-layer model
+Using Keras to create the Multi-layer model:
 
+![Alt text](/pic/Multi layer network.png?raw=true "final Mul-layer model")
 
 
 
@@ -172,12 +175,11 @@ Using Keras to create the Multi-layer model
 Invoice reader is using tkinter library as GUI. 
 Using is simple, only in menu select File→ Open and then select the PDF file to be read
 As example inside provider folder is BASE provider.
-
-
+![Alt text](/pic/Reader1.png?raw=true "Example of using")
 
 Getting invoice’s number and date. Also CAE’s number and date. Total amount in this case brings more information due to pour labeling in bounding boxes. It must be improved.
 
-
+![Alt text](/pic/Read2.png?raw=true "Example of using")
 
 
 Other problem is depending on how the PDF was created, pdfplumber can retrieves more than an word in one bounding box. 
@@ -229,6 +231,6 @@ https://arxiv.org/abs/1903.12363
 
 
 ## Contact
-Created by Marcos Tagliapietra [(https://www.linkedin.com/in/marcos-e-tagliapietra) 
-Feel free to contact me!
+Created by Marcos Tagliapietra [(https://www.linkedin.com/in/marcos-e-tagliapietra)]
+Any question feel free to contact me!
 
