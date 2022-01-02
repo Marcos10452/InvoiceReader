@@ -20,9 +20,9 @@ Works best on machine-generated, rather than scanned PDFs.
 ## Table of Contents
 * [Requirements](#requirements)
 * [General Info](#general-information)
-* [Training File](#training file)
-* [Getting data from invoice](#getting data from invoice)
-* [Setup & Usage](#setup)
+* [Training File](#training-file)
+* [Getting data from invoice](#getting-data-from-invoice)
+* [Setup & Usage](#setup-&-usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -92,7 +92,8 @@ file is:
 				-uploads model and predict classes. 
 
 
-## Training File → 10_filefortraining_V2.0ipynb 
+## Training File 
+→ 10_filefortraining_V2.0ipynb 
 
 As I have mentioned before, pdfplumber reads PDF file and recovers position of every words in invoice inside of red bonding boxes as they are showed in next picture.
 
@@ -165,7 +166,8 @@ Using Keras to create the Multi-layer model
 
 
 	
-## Getting data from invoice → Inovice_reader_v2.1.ipynb 
+## Getting data from invoice 
+→ Inovice_reader_v2.1.ipynb 
 
 Invoice reader is using tkinter library as GUI. 
 Using is simple, only in menu select File→ Open and then select the PDF file to be read
