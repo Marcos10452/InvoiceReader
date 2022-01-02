@@ -191,7 +191,7 @@ Below there is a regular  expression list for recover, invoice’s number, invoi
 
 
 
-## Setup_Usage
+## Setup Usage
 Running the notebooks you shouldn’t have any issue.
 
 _ Training _: if increase the number of samples, a GPU is going to be needed.
