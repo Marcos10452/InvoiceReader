@@ -116,7 +116,7 @@ However, a first analysis revels  that data is unbalanced.
 
 Thus, the next step was to use SMOTE creating overlapping samples and solve the problem mentioned above.
 
-![Alt text](/pic/Unbalanced.png?raw=true "Unbalanced data")
+![Alt text](/pic/SMOTE.png?raw=true "SMOTE code")
 
 
 
@@ -156,7 +156,7 @@ Finally, multi-layer configuration will be:
 
 Using Keras to create the Multi-layer model:
 
-![Alt text](/pic/Multi layer network.png?raw=true "final Mul-layer model")
+![Alt text](/pic/MultiLayer.png?raw=true "final Mul-layer model")
 
 
 
