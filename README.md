@@ -98,7 +98,7 @@ file is:
 As I have mentioned before, pdfplumber reads PDF file and recovers position of every words in invoice inside of red bonding boxes as they are showed in next picture.
 
 
-
+![Alt text](/pic/invoice.png?raw=true "Bounding boxes")
 
 
 As example, file InovoiceSample2.csv is share. It has all samples for training from twelve different providers with an average of 6 invoices as sample each one.
