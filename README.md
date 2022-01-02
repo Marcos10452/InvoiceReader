@@ -7,13 +7,13 @@ The idea was read in a CUTIE paper (check Acknowledgement) . However instead of 
 
 Basically, it reads a PDF file with pdfplumber library, getting the word’s bounding boxes. Then, those positions pass through a trained  multilayer network  in order to predict in which class that words belong. This is treated as a multi-class classification problem.
 
-Classes are :
-	0-None
-	1-Invoice’s number
-	2-Invoice’s date
-	3-CAE number  ( Electronic Authorization Code only for Argentina)
-	4-CAE Date 
-	5-Total amount
+### Classes are :
+	- 0-None
+	- 1-Invoice’s number
+	- 2-Invoice’s date
+	- 3-CAE number  ( Electronic Authorization Code only for Argentina)
+	- 4-CAE Date 
+	- 5-Total amount
 
 Works best on machine-generated, rather than scanned PDFs.
 
@@ -22,7 +22,7 @@ Works best on machine-generated, rather than scanned PDFs.
 * [General Info](#general-information)
 * [Training File](#training-file)
 * [Getting data from invoice](#getting-data-from-invoice)
-* [Setup & Usage](#setup-&-usage)
+* [Setup Usage](#setup-usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -31,26 +31,26 @@ Works best on machine-generated, rather than scanned PDFs.
 
 ##  Requirements
 
--Hardware: GPU was not needed in this first approch. However if more parameters are added and neurons are incremented  GPU will be needed or training on Colab.
+- Hardware: GPU was not needed in this first approch. However if more parameters are added and neurons are incremented  GPU will be needed or training on Colab.
 Intel(R) Core(TM) i5-4200M CPU @ 2.50GHz Memory 8GB
 
 - It was developed in Linux Ubuntu 16.04.7 LTS
 
--Python 3.7
+- Python 3.7
 
 Libraries
--pdfpluber 0.6.0 → pip install pdfplumber
+- pdfpluber 0.6.0 → pip install pdfplumber
 https://pypi.org/project/pdfplumber/
 
--SMOTE:Synthetic Minority Oversampling Technique (SMOTE) 
+- SMOTE:Synthetic Minority Oversampling Technique (SMOTE) 
 Over-sampling method.
 https://imbalanced-learn.org/stable/over_sampling.html#smote-adasyn
 
 
--GUI library: tkinter 8.6
+- GUI library: tkinter 8.6
 https://docs.python.org/3/library/tkinter.html#module-tkinter
 
--Keras 2.4.3
+- Keras 2.4.3
 
 ## General Information
 
@@ -191,7 +191,7 @@ Below there is a regular  expression list for recover, invoice’s number, invoi
 
 
 
-## Setup & Usage
+## Setup_Usage
 Running the notebooks you shouldn’t have any issue.
 
 _ Training _: if increase the number of samples, a GPU is going to be needed.
